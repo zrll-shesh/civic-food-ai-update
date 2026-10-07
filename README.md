@@ -105,4 +105,4 @@ Next.js 14 · React 18 · Recharts · Leaflet / react-leaflet · Lucide · Pytho
 
 ## Tim
 
-Dikembangkan oleh Nazril Ravi Pratama, Nadia Kaila, Darista Wardhani, dan dosen pendamping Ulfa Siti Nuraini, S.Stat., M.Stat. (Program Studi S1 Sains Data, Universitas Negeri Surabaya).
+Dikembangkan oleh Nazril Ravi Pratama (Program Studi S1 Sains Data, Universitas Negeri Surabaya).
