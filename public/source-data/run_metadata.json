@@ -1,6 +1,6 @@
 {
   "seed": 42,
-  "tabular_path": "/content/KTI GEMASTIK - CLEAN.csv",
+  "tabular_path": "/content/Dataset.csv",
   "tweet_path": "/content/civic_food_tweets_relevance_all.csv",
   "generated_at": "2026-08-11T12:07:54.884730+00:00",
   "output_dir": "/content/civic_food_ai/outputs",

@@ -1,4 +1,4 @@
-# CIVIC-FOOD AI — Sistem Pendukung Keputusan Ketahanan Pangan
+# CIVIC-FOOD AI (Sistem Pendukung Keputusan Ketahanan Pangan)
 
 *Cross-sector Intelligence for Vulnerability, Impact, and Coordination – Food Artificial Intelligence.*
 

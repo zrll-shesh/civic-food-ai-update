@@ -16,7 +16,6 @@ Metode: setiap berkas JSON di `public/data` dibandingkan dengan CSV asli di `pub
 | 5 | "Public voice yearly": batang 2025 (1.658) vs 2026 (77). | Tampak seperti tren tahunan; padahal seluruh data hanya 18 Des 2025 – 1 Jan 2026 (15 hari). | Diganti linimasa harian dan banner "potret waktu, bukan tren". Lokasi unggahan tidak masuk ke skor. |
 | 6 | Jumlah konfigurasi klasterisasi memakai 116 baris. | Mengandung duplikat (±93 konfigurasi unik). | Memakai konfigurasi unik. |
 | 7 | Berkas NLP 2,2 MB dimuat saat pembukaan, tidak dipakai. | Pemuatan awal lambat. | Tidak dimuat; linimasa dihitung sekali di `scripts/build_derived.py`. |
-| 8 | Footer/README menyebut GEMASTIK XIX dan README menulis periode tweet "2021–2026". | Tidak sesuai data dan konteks terbaru. | Footer netral; README lama diarsipkan di `docs/`. |
 
 ## Catatan keterbatasan yang kini ditampilkan di dasbor
 Data lima tahun; validasi satu langkah; baseline naif lebih akurat; empat provinsi (Maluku, Maluku Utara, NTT, Papua) berproyeksi identik 55,02 pada 2028 (model berbasis pohon); label emosi belum divalidasi manusia; ARI klaster belum diuji; bobot 45/30/15/10 berbasis penalaran; kuartil bersifat relatif; sinyal underdog/paradox agak sirkuler karena IKP ikut menjadi fitur klasterisasi.
