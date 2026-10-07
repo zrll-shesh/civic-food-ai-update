@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01_ikp_distribution_before.png",
+    "title": "Distribusi IKP sebelum preprocessing"
+  },
+  {
+    "file": "02_ikp_national_trend_before.png",
+    "title": "Tren nasional IKP"
+  },
+  {
+    "file": "03_correlation_heatmap_before.png",
+    "title": "Korelasi multidimensional"
+  },
+  {
+    "file": "04_pca_explained_variance.png",
+    "title": "PCA explained variance"
+  },
+  {
+    "file": "05_pca_2d.png",
+    "title": "PCA 2D"
+  },
+  {
+    "file": "06_umap_2d.png",
+    "title": "UMAP 2D"
+  },
+  {
+    "file": "07_final_cluster_pca.png",
+    "title": "Final cluster pada ruang PCA"
+  },
+  {
+    "file": "08_cluster_ikp_profile.png",
+    "title": "Profil IKP antar cluster"
+  },
+  {
+    "file": "09_choropleth_ikp_2025.png",
+    "title": "Choropleth IKP 2025"
+  },
+  {
+    "file": "09_choropleth_ikp_latest.png",
+    "title": "Choropleth IKP terbaru"
+  },
+  {
+    "file": "11_ikp_delta.png",
+    "title": "Perubahan IKP"
+  },
+  {
+    "file": "12_forecast_actual_vs_predicted.png",
+    "title": "Forecast: aktual vs prediksi"
+  },
+  {
+    "file": "13_forecast_residuals.png",
+    "title": "Residual forecasting"
+  },
+  {
+    "file": "14_shap_importance.png",
+    "title": "SHAP feature importance"
+  },
+  {
+    "file": "15_ikp_forecast_trajectory.png",
+    "title": "Trajektori IKP 2026–2028"
+  },
+  {
+    "file": "16_ikp_heatmap_forecast.png",
+    "title": "Heatmap forecast IKP"
+  },
+  {
+    "file": "17_public_voice_yearly.png",
+    "title": "Public voice per tahun"
+  },
+  {
+    "file": "18_emotion_distribution.png",
+    "title": "Distribusi emosi"
+  },
+  {
+    "file": "19_emotion_confidence.png",
+    "title": "Confidence emotion"
+  },
+  {
+    "file": "20_emotion_confusion_matrix.png",
+    "title": "Confusion matrix emotion"
+  },
+  {
+    "file": "21_topic_distribution.png",
+    "title": "Distribusi topic"
+  },
+  {
+    "file": "22_topic_emotion_heatmap.png",
+    "title": "Topic × emotion"
+  },
+  {
+    "file": "23_yearly_emotion.png",
+    "title": "Emosi per tahun"
+  },
+  {
+    "file": "24_decision_priority.png",
+    "title": "Prioritas intervensi"
+  }
+]

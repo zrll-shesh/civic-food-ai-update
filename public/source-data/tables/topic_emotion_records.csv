@@ -1,0 +1,32 @@
+﻿topic_name,emotion,tweet_count,share_within_topic
+Bantuan Beras dan Distribusi Bantuan Pangan,anger,25,0.22727272727272727
+Bantuan Beras dan Distribusi Bantuan Pangan,happy,72,0.6545454545454545
+Bantuan Beras dan Distribusi Bantuan Pangan,sadness,13,0.11818181818181818
+Bantuan Pangan dan Logistik bagi Korban Bencana,happy,28,0.9655172413793104
+Bantuan Pangan dan Logistik bagi Korban Bencana,sadness,1,0.034482758620689655
+"Harga Beras, Stok Pangan, dan Stabilitas Harga",anger,18,0.21176470588235294
+"Harga Beras, Stok Pangan, dan Stabilitas Harga",fear,3,0.03529411764705882
+"Harga Beras, Stok Pangan, dan Stabilitas Harga",happy,59,0.6941176470588235
+"Harga Beras, Stok Pangan, dan Stabilitas Harga",sadness,5,0.058823529411764705
+Kelaparan dan Isu Kebijakan Sosial,anger,11,0.28205128205128205
+Kelaparan dan Isu Kebijakan Sosial,happy,8,0.20512820512820512
+Kelaparan dan Isu Kebijakan Sosial,sadness,20,0.5128205128205128
+Kelaparan dan Krisis Pangan akibat Bencana,anger,214,0.5071090047393365
+Kelaparan dan Krisis Pangan akibat Bencana,fear,11,0.026066350710900472
+Kelaparan dan Krisis Pangan akibat Bencana,happy,66,0.15639810426540285
+Kelaparan dan Krisis Pangan akibat Bencana,love,1,0.002369668246445498
+Kelaparan dan Krisis Pangan akibat Bencana,sadness,130,0.3080568720379147
+Kelaparan dan Kritik Penanganan Bencana,anger,20,0.5714285714285714
+Kelaparan dan Kritik Penanganan Bencana,happy,7,0.2
+Kelaparan dan Kritik Penanganan Bencana,sadness,8,0.22857142857142856
+"Ketahanan Pangan, Pertanian, dan Ketersediaan Pangan",anger,158,0.1723009814612868
+"Ketahanan Pangan, Pertanian, dan Ketersediaan Pangan",fear,14,0.015267175572519083
+"Ketahanan Pangan, Pertanian, dan Ketersediaan Pangan",happy,682,0.7437295528898582
+"Ketahanan Pangan, Pertanian, dan Ketersediaan Pangan",sadness,63,0.06870229007633588
+Non-Food: Lalu Lintas dan Perjalanan,fear,14,0.7
+Non-Food: Lalu Lintas dan Perjalanan,happy,4,0.2
+Non-Food: Lalu Lintas dan Perjalanan,sadness,2,0.1
+Outlier / Noise,anger,37,0.47435897435897434
+Outlier / Noise,fear,1,0.01282051282051282
+Outlier / Noise,happy,26,0.3333333333333333
+Outlier / Noise,sadness,14,0.1794871794871795

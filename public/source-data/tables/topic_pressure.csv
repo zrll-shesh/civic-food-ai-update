@@ -1,0 +1,10 @@
+﻿topic_name,negative_share,positive_share,tweet_count,pressure_score
+Kelaparan dan Krisis Pangan akibat Bencana,0.8412322274881516,0.002369668246445498,422,83.88625592417061
+Kelaparan dan Kritik Penanganan Bencana,0.8,0.0,35,80.0
+Non-Food: Lalu Lintas dan Perjalanan,0.8,0.0,20,80.0
+Kelaparan dan Isu Kebijakan Sosial,0.7948717948717948,0.0,39,79.48717948717949
+Outlier / Noise,0.6666666666666666,0.0,78,66.66666666666666
+Bantuan Beras dan Distribusi Bantuan Pangan,0.34545454545454546,0.0,110,34.54545454545455
+"Harga Beras, Stok Pangan, dan Stabilitas Harga",0.3058823529411765,0.0,85,30.58823529411765
+"Ketahanan Pangan, Pertanian, dan Ketersediaan Pangan",0.25627044711014174,0.0,917,25.627044711014175
+Bantuan Pangan dan Logistik bagi Korban Bencana,0.034482758620689655,0.0,29,3.4482758620689653

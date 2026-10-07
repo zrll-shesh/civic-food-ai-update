@@ -1,0 +1,28 @@
+{
+  "n_panel_rows": 190,
+  "n_provinces": 38,
+  "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "n_cluster_features": 19,
+  "ikp_in_clustering": true,
+  "best_clustering_embedding": "UMAP_3",
+  "best_clustering_algorithm": "HDBSCAN",
+  "best_clustering_param": "5_8",
+  "cluster_count": 10,
+  "eta_squared_ikp": 0.8387947039014165,
+  "eta_squared_pou": 0.7074402055685609,
+  "cluster_stability_ari_mean": null,
+  "forecast_validation_year": 2025,
+  "forecast_rmse": 3.102291923891631,
+  "forecast_mae": 2.3746529789974815,
+  "forecast_mape_percent": 4.015273005315229,
+  "forecast_r2": 0.9134947208969372,
+  "n_nlp_tweets": 1735,
+  "n_emotion_classes": 5,
+  "n_topics_excluding_outlier": 8
+}

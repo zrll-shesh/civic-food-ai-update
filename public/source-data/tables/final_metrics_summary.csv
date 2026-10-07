@@ -1,0 +1,14 @@
+﻿metric,value
+Panel observations,190
+Provinces,38
+IKP included in clustering,True
+Best clustering configuration,UMAP_3 + HDBSCAN (5_8)
+IKP eta-squared,0.8387947039014165
+PoU eta-squared,0.7074402055685609
+Forecast RMSE,3.102291923891631
+Forecast MAE,2.3746529789974815
+Forecast MAPE (%),4.015273005315229
+Forecast R2,0.9134947208969372
+NLP tweets,1735
+Emotion classes,5
+BERTopic topics,8

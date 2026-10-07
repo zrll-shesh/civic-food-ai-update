@@ -1,0 +1,102 @@
+[
+  {
+    "csv": "cluster_assignments.csv",
+    "json": "cluster_assignments.json",
+    "title": "Cluster Assignments"
+  },
+  {
+    "csv": "cluster_ikp_profile.csv",
+    "json": "cluster_ikp_profile.json",
+    "title": "Cluster Ikp Profile"
+  },
+  {
+    "csv": "cluster_pou_profile.csv",
+    "json": "cluster_pou_profile.json",
+    "title": "Cluster Pou Profile"
+  },
+  {
+    "csv": "cluster_profile_mean.csv",
+    "json": "cluster_profile_mean.json",
+    "title": "Cluster Profile Mean"
+  },
+  {
+    "csv": "cluster_profile_zscore.csv",
+    "json": "cluster_profile_zscore.json",
+    "title": "Cluster Profile Zscore"
+  },
+  {
+    "csv": "clustering_model_comparison.csv",
+    "json": "clustering_model_comparison.json",
+    "title": "Clustering Model Comparison"
+  },
+  {
+    "csv": "clustering_sensitivity_no_ikp.csv",
+    "json": "clustering_sensitivity_no_ikp.json",
+    "title": "Clustering Sensitivity No Ikp"
+  },
+  {
+    "csv": "figure_index.csv",
+    "json": "figure_index.json",
+    "title": "Figure Index"
+  },
+  {
+    "csv": "final_metrics_summary.csv",
+    "json": "final_metrics_summary.json",
+    "title": "Final Metrics Summary"
+  },
+  {
+    "csv": "forecast_model_comparison.csv",
+    "json": "forecast_model_comparison.json",
+    "title": "Forecast Model Comparison"
+  },
+  {
+    "csv": "forecast_priority_analysis.csv",
+    "json": "forecast_priority_analysis.json",
+    "title": "Forecast Priority Analysis"
+  },
+  {
+    "csv": "forecast_shap_importance.csv",
+    "json": "forecast_shap_importance.json",
+    "title": "Forecast Shap Importance"
+  },
+  {
+    "csv": "forecast_validation_predictions.csv",
+    "json": "forecast_validation_predictions.json",
+    "title": "Forecast Validation Predictions"
+  },
+  {
+    "csv": "public_voice_yearly.csv",
+    "json": "public_voice_yearly.json",
+    "title": "Public Voice Yearly"
+  },
+  {
+    "csv": "topic_emotion_matrix.csv",
+    "json": "topic_emotion_matrix.json",
+    "title": "Topic Emotion Matrix"
+  },
+  {
+    "csv": "topic_emotion_records.csv",
+    "json": "topic_emotion_records.json",
+    "title": "Topic Emotion Records"
+  },
+  {
+    "csv": "topic_info.csv",
+    "json": "topic_info.json",
+    "title": "Topic Info"
+  },
+  {
+    "csv": "topic_name_template.csv",
+    "json": "topic_name_template.json",
+    "title": "Topic Name Template"
+  },
+  {
+    "csv": "topic_pressure.csv",
+    "json": "topic_pressure.json",
+    "title": "Topic Pressure"
+  },
+  {
+    "csv": "xgboost_tuning_results.csv",
+    "json": "xgboost_tuning_results.json",
+    "title": "Xgboost Tuning Results"
+  }
+]

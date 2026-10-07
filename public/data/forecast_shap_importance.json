@@ -1,0 +1,1 @@
+[{"feature":"ikp_lag2","mean_abs_shap":4.322388},{"feature":"ikp_lag1","mean_abs_shap":2.9760902},{"feature":"ikp_delta1","mean_abs_shap":1.9349891},{"feature":"ikp_roll2","mean_abs_shap":0.31327036},{"feature":"year_index","mean_abs_shap":0.23033659}]

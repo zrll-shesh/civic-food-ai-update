@@ -1,0 +1,24 @@
+// Verifikasi angka kunci dasbor terhadap berkas hasil analisis.  Jalankan: npm run verify
+import fs from 'fs'; import path from 'path'; import { fileURLToPath } from 'url';
+import { buildModel } from '../components/lib/derive.mjs';
+const P = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'public', 'data');
+const J = (f) => JSON.parse(fs.readFileSync(path.join(P, f), 'utf8'));
+const data = { integrated: J('integrated_decision_support.json'), forecast: J('forecast_2026_2028.json'), clusterAssign: J('cluster_assignments.json'), clusters: J('cluster_profile_mean.json'), geo: J('indonesia_provinces.geojson'), derived: J('derived.json') };
+const m = buildModel(data); const s = J('analysis_summary.json'); const models = J('forecast_model_comparison.json');
+let fail = 0; const ok = (c, l) => { if (!c) fail++; console.log((c ? 'OK     ' : 'GAGAL  ') + l); };
+const near = (a, b, t = 0.006) => Math.abs(a - b) < t;
+ok(m.rows.length === 38, '38 provinsi');
+ok(near(m.q.q25, 10.81) && near(m.q.q50, 17.77) && near(m.q.q75, 33.22), `kuartil skor ${m.q.q25.toFixed(2)} / ${m.q.q50.toFixed(2)} / ${m.q.q75.toFixed(2)}`);
+ok(m.tierCounts.map((t) => t.count).join() === '10,9,9,10', 'provinsi per tingkat 10/9/9/10');
+ok(Math.max(...m.rows.map((r) => Math.abs(r.score - r.fileScore))) < 1e-9, 'skor rekonstruksi 45R+30D+15U+10P = skor pada berkas');
+const ntb = m.byKey['NUSA TENGGARA BARAT'];
+ok(near(ntb.ikp, 74.70) && near(ntb.delta, -5.20) && near(ntb.fileScore, 46.55) && ntb.rankPs === 3 && ntb.rankIkp === 28, 'NTB: IKP 74,70; Δ −5,20; skor 46,55; peringkat 28 → 3');
+ok(near(m.medianIkp, 71.74), 'median IKP 2025 = 71,74');
+ok(near(m.national[2].value, 70.91) && near(m.national[3].value, 67.46) && near(m.national[4].value, 68.88), 'rata-rata nasional 2023/2024/2025 = 70,91 / 67,46 / 68,88');
+ok(m.rows.filter((r) => r.U).length === 6 && m.rows.filter((r) => r.P).length === 10, 'sinyal: 6 underdog, 10 paradox');
+ok(data.derived.concordance.overlap_top10 === 9 && near(data.derived.concordance.spearman, 0.66), 'konkordansi: irisan 9/10, Spearman 0,66');
+ok(data.derived.sensitivity['NUSA TENGGARA BARAT'].top10_pct === 100 && data.derived.sensitivity['NUSA TENGGARA BARAT'].top5_pct === 91.1, 'sensitivitas bobot NTB: 100% sepuluh besar, 91,1% lima besar');
+ok(near(s.forecast_mape_percent, 4.0153, 0.001) && near(Number(models.find((x) => x.model === 'Naive Lag-1')['MAPE (%)']), 2.7372, 0.001), 'MAPE XGBoost 4,02% dan baseline naif 2,74%');
+ok(s.cluster_count === 10 && s.n_nlp_tweets === 1735, '9 tipologi + 1 pencilan; 1.735 unggahan');
+ok(data.derived.voice.start.startsWith('2025-12-18') && data.derived.voice.end.startsWith('2026-01-01'), 'jendela unggahan 18 Des 2025 – 1 Jan 2026');
+console.log(fail ? `\n${fail} pemeriksaan GAGAL` : '\nSemua pemeriksaan lolos'); process.exit(fail ? 1 : 0);
